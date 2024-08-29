@@ -3,7 +3,7 @@
         <h1>Componente com Data Binding</h1>
         <P>{{ valor }}</P>
         <!-- <input type="text" v-bind:value="valor"></input> -->
-         <input type="text" v-bind:value="valor" @input="(e) => valor = e.target.value"></input>
+         <input type="text" v-model="valor"></input>
     </div>
 </template>
 
